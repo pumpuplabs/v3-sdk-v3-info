@@ -26,16 +26,16 @@
   "dependencies": {
     "@ethersproject/abi": "^5.0.12",
     "@ethersproject/solidity": "^5.0.9",
+    "@pumpup/v3-periphery": "^1.0.0",
     "@uniswap/sdk-core": "https://github.com/pumpuplabs/sdk-core-v3-info.git",
     "@uniswap/swap-router-contracts": "^1.2.1",
-    "@uniswap/v3-periphery": "^1.1.1",
     "@uniswap/v3-staker": "1.0.0",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },
   "devDependencies": {
+    "@pumpup/v3-core": "^1.0.0",
     "@types/jest": "^24.0.25",
-    "@uniswap/v3-core": "1.0.0",
     "tsdx": "^0.14.1"
   },
   "resolutions": {

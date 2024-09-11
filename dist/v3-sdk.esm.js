@@ -4,14 +4,14 @@ import invariant from 'tiny-invariant';
 import { defaultAbiCoder, Interface } from '@ethersproject/abi';
 import { getCreate2Address } from '@ethersproject/address';
 import { keccak256, pack } from '@ethersproject/solidity';
-import IMulticall from '@uniswap/v3-periphery/artifacts/contracts/interfaces/IMulticall.sol/IMulticall.json';
-import INonfungiblePositionManager from '@uniswap/v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json';
-import ISelfPermit from '@uniswap/v3-periphery/artifacts/contracts/interfaces/ISelfPermit.sol/ISelfPermit.json';
-import IPeripheryPaymentsWithFee from '@uniswap/v3-periphery/artifacts/contracts/interfaces/IPeripheryPaymentsWithFee.sol/IPeripheryPaymentsWithFee.json';
-import IQuoter from '@uniswap/v3-periphery/artifacts/contracts/lens/Quoter.sol/Quoter.json';
+import IMulticall from '@pumpup/v3-periphery/artifacts/contracts/interfaces/IMulticall.sol/IMulticall.json';
+import INonfungiblePositionManager from '@pumpup/v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json';
+import ISelfPermit from '@pumpup/v3-periphery/artifacts/contracts/interfaces/ISelfPermit.sol/ISelfPermit.json';
+import IPeripheryPaymentsWithFee from '@pumpup/v3-periphery/artifacts/contracts/interfaces/IPeripheryPaymentsWithFee.sol/IPeripheryPaymentsWithFee.json';
+import IQuoter from '@pumpup/v3-periphery/artifacts/contracts/lens/Quoter.sol/Quoter.json';
 import IQuoterV2 from '@uniswap/swap-router-contracts/artifacts/contracts/lens/QuoterV2.sol/QuoterV2.json';
 import IUniswapV3Staker from '@uniswap/v3-staker/artifacts/contracts/UniswapV3Staker.sol/UniswapV3Staker.json';
-import ISwapRouter from '@uniswap/v3-periphery/artifacts/contracts/SwapRouter.sol/SwapRouter.json';
+import ISwapRouter from '@pumpup/v3-periphery/artifacts/contracts/SwapRouter.sol/SwapRouter.json';
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
   try {
@@ -909,9 +909,9 @@ try {
 
 var _FACTORY_ADDRESS_MAP, _TICK_SPACINGS;
 var FACTORY_ADDRESS = '0x1F98431c8aD98523631AE4a59f267346ea31F984';
-var FACTORY_ADDRESS_MAP = (_FACTORY_ADDRESS_MAP = {}, _FACTORY_ADDRESS_MAP[ChainId.BASE_SEPOLIA] = '0x9323c1d6D800ed51Bd7C6B216cfBec678B7d0BC2', _FACTORY_ADDRESS_MAP[ChainId.BASE_GOERLI] = '0x1F98431c8aD98523631AE4a59f267346ea31F984', _FACTORY_ADDRESS_MAP[ChainId.AVALANCHE] = '0x1F98431c8aD98523631AE4a59f267346ea31F984', _FACTORY_ADDRESS_MAP[ChainId.POLYGON] = '0x1F98431c8aD98523631AE4a59f267346ea31F984', _FACTORY_ADDRESS_MAP[ChainId.MAINNET] = '0x1F98431c8aD98523631AE4a59f267346ea31F984', _FACTORY_ADDRESS_MAP[ChainId.BASE] = '0x1F98431c8aD98523631AE4a59f267346ea31F984', _FACTORY_ADDRESS_MAP);
+var FACTORY_ADDRESS_MAP = (_FACTORY_ADDRESS_MAP = {}, _FACTORY_ADDRESS_MAP[ChainId.BASE_SEPOLIA] = '0x434f93bc85e709C7c6760f1DfE793D35501EA671', _FACTORY_ADDRESS_MAP[ChainId.BASE_GOERLI] = '0x1F98431c8aD98523631AE4a59f267346ea31F984', _FACTORY_ADDRESS_MAP[ChainId.AVALANCHE] = '0x1F98431c8aD98523631AE4a59f267346ea31F984', _FACTORY_ADDRESS_MAP[ChainId.POLYGON] = '0x1F98431c8aD98523631AE4a59f267346ea31F984', _FACTORY_ADDRESS_MAP[ChainId.MAINNET] = '0x1F98431c8aD98523631AE4a59f267346ea31F984', _FACTORY_ADDRESS_MAP[ChainId.BASE] = '0x1F98431c8aD98523631AE4a59f267346ea31F984', _FACTORY_ADDRESS_MAP);
 var ADDRESS_ZERO = '0x0000000000000000000000000000000000000000';
-var POOL_INIT_CODE_HASH = '0xe34f199b19b2b4f47f68442619d555527d244f78a3297ea89325f843f87b8b54';
+var POOL_INIT_CODE_HASH = '0x1e85f501b45deb56047d2d981e42784125caf47d6c30afeaab8a2a9fc0498037';
 /**
  * The default factory enabled fee amounts, denominated in hundredths of bips.
  */

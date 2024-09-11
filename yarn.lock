@@ -1271,6 +1271,23 @@
   resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-3.4.2-solc-0.7.tgz#38f4dbab672631034076ccdf2f3201fab1726635"
   integrity sha512-W6QmqgkADuFcTLzHL8vVoNBtkwjvQRpYIAom7KiUNoLKghyx3FgH0GBjt8NRvigV1ZmMOBllvE1By1C+bi8WpA==
 
+"@pumpup/v3-core@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@pumpup/v3-core/-/v3-core-1.0.0.tgz#8f4813d5b8256088430ce17994886c78b2e4afa9"
+  integrity sha512-CsslXUrYm8/vBhC1n36hHihw7XzT/4xUHsHLPn/9+7B8hhnp79JPy2EBQuRc3EkrCIz50qmzkxqetPyZN3xwlA==
+
+"@pumpup/v3-periphery@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@pumpup/v3-periphery/-/v3-periphery-1.0.0.tgz#d73e5c88184ad5f36a0a2d828de22230fb4a1546"
+  integrity sha512-Z+8vZY+0BgeKrs0t46+X6QjQ5RAc4Dv8MkZ7jzP4+omXi+fqJyHY5BzMAtvQl2zc20Q5J+5kQB4ofZU1bxpq1g==
+  dependencies:
+    "@openzeppelin/contracts" "3.4.2-solc-0.7"
+    "@pumpup/v3-core" "^1.0.0"
+    "@uniswap/lib" "^4.0.1-alpha"
+    "@uniswap/v2-core" "^1.0.1"
+    "@uniswap/v3-core" "^1.0.0"
+    base64-sol "1.0.1"
+
 "@rollup/plugin-babel@^5.1.0":
   version "5.2.2"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-babel/-/plugin-babel-5.2.2.tgz#e5623a01dd8e37e004ba87f2de218c611727d9b2"
@@ -1557,7 +1574,7 @@
     dotenv "^14.2.0"
     hardhat-watcher "^2.1.1"
 
-"@uniswap/v2-core@1.0.1":
+"@uniswap/v2-core@1.0.1", "@uniswap/v2-core@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@uniswap/v2-core/-/v2-core-1.0.1.tgz#af8f508bf183204779938969e2e54043e147d425"
   integrity sha512-MtybtkUPSyysqLY2U210NBDeCHX+ltHt3oADGdjqoThZaFRDKwM6k1Nb3F0A3hk5hwuQvytFWhrWHOEq6nVJ8Q==
@@ -1566,6 +1583,11 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@uniswap/v3-core/-/v3-core-1.0.0.tgz#6c24adacc4c25dceee0ba3ca142b35adbd7e359d"
   integrity sha512-kSC4djMGKMHj7sLMYVnn61k9nu+lHjMIxgg9CDQT+s2QYLoA56GbSK9Oxr+qJXzzygbkrmuY6cwgP6cW2JXPFA==
+
+"@uniswap/v3-core@^1.0.0":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@uniswap/v3-core/-/v3-core-1.0.1.tgz#b6d2bdc6ba3c3fbd610bdc502395d86cd35264a0"
+  integrity sha512-7pVk4hEm00j9tc71Y9+ssYpO6ytkeI0y7WE9P6UcmNzhxPePwyAxImuhVsTqWK9YFvzgtvzJHi64pBl4jUzKMQ==
 
 "@uniswap/v3-periphery@1.4.1":
   version "1.4.1"
@@ -1579,7 +1601,7 @@
     base64-sol "1.0.1"
     hardhat-watcher "^2.1.1"
 
-"@uniswap/v3-periphery@^1.0.1", "@uniswap/v3-periphery@^1.1.1":
+"@uniswap/v3-periphery@^1.0.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@uniswap/v3-periphery/-/v3-periphery-1.1.1.tgz#be6dfca7b29318ea0d76a7baf15d3b33c3c5e90a"
   integrity sha512-orqD2Xy4lxVPF6pxd7ECSJY0gzEuqyeVSDHjzM86uWxOXlA4Nlh5pvI959KaS32pSOFBOVVA4XbbZywbJj+CZg==

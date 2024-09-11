@@ -10,14 +10,14 @@ var invariant = _interopDefault(require('tiny-invariant'));
 var abi = require('@ethersproject/abi');
 var address = require('@ethersproject/address');
 var solidity = require('@ethersproject/solidity');
-var IMulticall = _interopDefault(require('@uniswap/v3-periphery/artifacts/contracts/interfaces/IMulticall.sol/IMulticall.json'));
-var INonfungiblePositionManager = _interopDefault(require('@uniswap/v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json'));
-var ISelfPermit = _interopDefault(require('@uniswap/v3-periphery/artifacts/contracts/interfaces/ISelfPermit.sol/ISelfPermit.json'));
-var IPeripheryPaymentsWithFee = _interopDefault(require('@uniswap/v3-periphery/artifacts/contracts/interfaces/IPeripheryPaymentsWithFee.sol/IPeripheryPaymentsWithFee.json'));
-var IQuoter = _interopDefault(require('@uniswap/v3-periphery/artifacts/contracts/lens/Quoter.sol/Quoter.json'));
+var IMulticall = _interopDefault(require('@pumpup/v3-periphery/artifacts/contracts/interfaces/IMulticall.sol/IMulticall.json'));
+var INonfungiblePositionManager = _interopDefault(require('@pumpup/v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json'));
+var ISelfPermit = _interopDefault(require('@pumpup/v3-periphery/artifacts/contracts/interfaces/ISelfPermit.sol/ISelfPermit.json'));
+var IPeripheryPaymentsWithFee = _interopDefault(require('@pumpup/v3-periphery/artifacts/contracts/interfaces/IPeripheryPaymentsWithFee.sol/IPeripheryPaymentsWithFee.json'));
+var IQuoter = _interopDefault(require('@pumpup/v3-periphery/artifacts/contracts/lens/Quoter.sol/Quoter.json'));
 var IQuoterV2 = _interopDefault(require('@uniswap/swap-router-contracts/artifacts/contracts/lens/QuoterV2.sol/QuoterV2.json'));
 var IUniswapV3Staker = _interopDefault(require('@uniswap/v3-staker/artifacts/contracts/UniswapV3Staker.sol/UniswapV3Staker.json'));
-var ISwapRouter = _interopDefault(require('@uniswap/v3-periphery/artifacts/contracts/SwapRouter.sol/SwapRouter.json'));
+var ISwapRouter = _interopDefault(require('@pumpup/v3-periphery/artifacts/contracts/SwapRouter.sol/SwapRouter.json'));
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
   try {
@@ -915,9 +915,9 @@ try {
 
 var _FACTORY_ADDRESS_MAP, _TICK_SPACINGS;
 var FACTORY_ADDRESS = '0x1F98431c8aD98523631AE4a59f267346ea31F984';
-var FACTORY_ADDRESS_MAP = (_FACTORY_ADDRESS_MAP = {}, _FACTORY_ADDRESS_MAP[sdkCore.ChainId.BASE_SEPOLIA] = '0x9323c1d6D800ed51Bd7C6B216cfBec678B7d0BC2', _FACTORY_ADDRESS_MAP[sdkCore.ChainId.BASE_GOERLI] = '0x1F98431c8aD98523631AE4a59f267346ea31F984', _FACTORY_ADDRESS_MAP[sdkCore.ChainId.AVALANCHE] = '0x1F98431c8aD98523631AE4a59f267346ea31F984', _FACTORY_ADDRESS_MAP[sdkCore.ChainId.POLYGON] = '0x1F98431c8aD98523631AE4a59f267346ea31F984', _FACTORY_ADDRESS_MAP[sdkCore.ChainId.MAINNET] = '0x1F98431c8aD98523631AE4a59f267346ea31F984', _FACTORY_ADDRESS_MAP[sdkCore.ChainId.BASE] = '0x1F98431c8aD98523631AE4a59f267346ea31F984', _FACTORY_ADDRESS_MAP);
+var FACTORY_ADDRESS_MAP = (_FACTORY_ADDRESS_MAP = {}, _FACTORY_ADDRESS_MAP[sdkCore.ChainId.BASE_SEPOLIA] = '0x434f93bc85e709C7c6760f1DfE793D35501EA671', _FACTORY_ADDRESS_MAP[sdkCore.ChainId.BASE_GOERLI] = '0x1F98431c8aD98523631AE4a59f267346ea31F984', _FACTORY_ADDRESS_MAP[sdkCore.ChainId.AVALANCHE] = '0x1F98431c8aD98523631AE4a59f267346ea31F984', _FACTORY_ADDRESS_MAP[sdkCore.ChainId.POLYGON] = '0x1F98431c8aD98523631AE4a59f267346ea31F984', _FACTORY_ADDRESS_MAP[sdkCore.ChainId.MAINNET] = '0x1F98431c8aD98523631AE4a59f267346ea31F984', _FACTORY_ADDRESS_MAP[sdkCore.ChainId.BASE] = '0x1F98431c8aD98523631AE4a59f267346ea31F984', _FACTORY_ADDRESS_MAP);
 var ADDRESS_ZERO = '0x0000000000000000000000000000000000000000';
-var POOL_INIT_CODE_HASH = '0xe34f199b19b2b4f47f68442619d555527d244f78a3297ea89325f843f87b8b54';
+var POOL_INIT_CODE_HASH = '0x1e85f501b45deb56047d2d981e42784125caf47d6c30afeaab8a2a9fc0498037';
 
 (function (FeeAmount) {
   FeeAmount[FeeAmount["LOWEST"] = 100] = "LOWEST";
