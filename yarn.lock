@@ -1276,10 +1276,15 @@
   resolved "https://registry.yarnpkg.com/@pumpup/v3-core/-/v3-core-1.0.0.tgz#8f4813d5b8256088430ce17994886c78b2e4afa9"
   integrity sha512-CsslXUrYm8/vBhC1n36hHihw7XzT/4xUHsHLPn/9+7B8hhnp79JPy2EBQuRc3EkrCIz50qmzkxqetPyZN3xwlA==
 
-"@pumpup/v3-periphery@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@pumpup/v3-periphery/-/v3-periphery-1.0.0.tgz#d73e5c88184ad5f36a0a2d828de22230fb4a1546"
-  integrity sha512-Z+8vZY+0BgeKrs0t46+X6QjQ5RAc4Dv8MkZ7jzP4+omXi+fqJyHY5BzMAtvQl2zc20Q5J+5kQB4ofZU1bxpq1g==
+"@pumpup/v3-core@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@pumpup/v3-core/-/v3-core-1.0.1.tgz#7c26be34054b827b2b30a24a8b55f78ece499453"
+  integrity sha512-VofteII6Ph0pzzuk5eVA48HBLhjW7M69pO3IJaX9T63CZJXB9w1dBf5FLRyhWGdv1mez/xDvzsqkznV9+v9uhg==
+
+"@pumpup/v3-periphery@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@pumpup/v3-periphery/-/v3-periphery-1.0.4.tgz#c740f42875a2781f235204f470e6a29afa13c7f5"
+  integrity sha512-lgwiIyreCfSUDrtarr3LuoUpCS3zgXPm3QGGvXCIJcGzfS0Jdj2QRqmzKTHyHCGxOYK9S2MPI6GimBbpRYUSww==
   dependencies:
     "@openzeppelin/contracts" "3.4.2-solc-0.7"
     "@pumpup/v3-core" "^1.0.0"
@@ -1553,7 +1558,7 @@
 
 "@uniswap/sdk-core@https://github.com/pumpuplabs/sdk-core-v3-info.git":
   version "4.0.9"
-  resolved "https://github.com/pumpuplabs/sdk-core-v3-info.git#671fe2d8bfe10d7c1919bd22548992a48cbe4ef5"
+  resolved "https://github.com/pumpuplabs/sdk-core-v3-info.git#78dccff946e11aa69d9c59c732ba48df6ae7cf97"
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
