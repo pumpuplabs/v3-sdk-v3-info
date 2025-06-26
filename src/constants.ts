@@ -1,4 +1,4 @@
-import { ChainId } from '@uniswap/sdk-core'
+import { ChainId } from '@pumpup/info-sdk-core'
 
 export const FACTORY_ADDRESS = '0x1F98431c8aD98523631AE4a59f267346ea31F984'
 export const FACTORY_ADDRESS_MAP = {
@@ -8,6 +8,7 @@ export const FACTORY_ADDRESS_MAP = {
   [ChainId.POLYGON]: '0x1F98431c8aD98523631AE4a59f267346ea31F984',
   [ChainId.MAINNET]: '0x1F98431c8aD98523631AE4a59f267346ea31F984',
   [ChainId.BASE]: '0x1F98431c8aD98523631AE4a59f267346ea31F984',
+  [ChainId.INK]: '0xEC97dC2342E6406286cE8a5FD53847427f81D8a5'
 }
 
 export const ADDRESS_ZERO = '0x0000000000000000000000000000000000000000'
@@ -22,7 +23,7 @@ export enum FeeAmount {
   LOW = 500,
   MEDIUM = 3000,
   HIGH = 10000,
-  HIGHEST = 18000,
+  HIGHEST = 18000
 }
 
 /**
@@ -33,5 +34,5 @@ export const TICK_SPACINGS: { [amount in FeeAmount]: number } = {
   [FeeAmount.LOW]: 10,
   [FeeAmount.MEDIUM]: 60,
   [FeeAmount.HIGH]: 200,
-  [FeeAmount.HIGHEST]: 360,
+  [FeeAmount.HIGHEST]: 360
 }

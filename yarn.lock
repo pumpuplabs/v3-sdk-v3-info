@@ -1271,20 +1271,32 @@
   resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-3.4.2-solc-0.7.tgz#38f4dbab672631034076ccdf2f3201fab1726635"
   integrity sha512-W6QmqgkADuFcTLzHL8vVoNBtkwjvQRpYIAom7KiUNoLKghyx3FgH0GBjt8NRvigV1ZmMOBllvE1By1C+bi8WpA==
 
+"@pumpup/info-sdk-core@4.0.9":
+  version "4.0.9"
+  resolved "https://registry.yarnpkg.com/@pumpup/info-sdk-core/-/info-sdk-core-4.0.9.tgz#b49a9be18b988493b86583920dcf2dc0ff7d20d1"
+  integrity sha512-byQwtwMgoSZRgMBBZwjulJCUryw9Hx10Q1HZr2TcOBhPYjT2QW5fT89UnSCx5xIYgRFC1VieCGxQACdXh5aMuA==
+  dependencies:
+    "@ethersproject/address" "^5.0.2"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.4"
+    tiny-invariant "^1.1.0"
+    toformat "^2.0.0"
+
 "@pumpup/v3-core@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@pumpup/v3-core/-/v3-core-1.0.0.tgz#8f4813d5b8256088430ce17994886c78b2e4afa9"
   integrity sha512-CsslXUrYm8/vBhC1n36hHihw7XzT/4xUHsHLPn/9+7B8hhnp79JPy2EBQuRc3EkrCIz50qmzkxqetPyZN3xwlA==
 
-"@pumpup/v3-core@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@pumpup/v3-core/-/v3-core-1.0.1.tgz#7c26be34054b827b2b30a24a8b55f78ece499453"
-  integrity sha512-VofteII6Ph0pzzuk5eVA48HBLhjW7M69pO3IJaX9T63CZJXB9w1dBf5FLRyhWGdv1mez/xDvzsqkznV9+v9uhg==
+"@pumpup/v3-core@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@pumpup/v3-core/-/v3-core-1.0.2.tgz#840020047f19a29a7d3334083ddbad99e49a3ece"
+  integrity sha512-pg2gQiWpVfQc7lZHWJbVbPIrw+1agm1E3q9EP3lqQRhrgoDodx9x/LpfAwF+Br9p07GTdmTwLaE2GQOsjVni9w==
 
-"@pumpup/v3-periphery@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@pumpup/v3-periphery/-/v3-periphery-1.0.4.tgz#c740f42875a2781f235204f470e6a29afa13c7f5"
-  integrity sha512-lgwiIyreCfSUDrtarr3LuoUpCS3zgXPm3QGGvXCIJcGzfS0Jdj2QRqmzKTHyHCGxOYK9S2MPI6GimBbpRYUSww==
+"@pumpup/v3-periphery@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@pumpup/v3-periphery/-/v3-periphery-1.0.5.tgz#28e350d717369044324c046c64b6a41f1a65b4db"
+  integrity sha512-PmWTJLVZHvvvpyonYt49T+BQgedEKugE4mLK0aKKNSCqIt0y2YIc8t8X/32OfR3/HXWMXA3WPDui2hZ4hhQ83A==
   dependencies:
     "@openzeppelin/contracts" "3.4.2-solc-0.7"
     "@pumpup/v3-core" "^1.0.0"
@@ -1555,17 +1567,6 @@
   version "4.0.1-alpha"
   resolved "https://registry.yarnpkg.com/@uniswap/lib/-/lib-4.0.1-alpha.tgz#2881008e55f075344675b3bca93f020b028fbd02"
   integrity sha512-f6UIliwBbRsgVLxIaBANF6w09tYqc6Y/qXdsrbEmXHyFA7ILiKrIwRFXe1yOg8M3cksgVsO9N7yuL2DdCGQKBA==
-
-"@uniswap/sdk-core@https://github.com/pumpuplabs/sdk-core-v3-info.git":
-  version "4.0.9"
-  resolved "https://github.com/pumpuplabs/sdk-core-v3-info.git#78dccff946e11aa69d9c59c732ba48df6ae7cf97"
-  dependencies:
-    "@ethersproject/address" "^5.0.2"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.4"
-    tiny-invariant "^1.1.0"
-    toformat "^2.0.0"
 
 "@uniswap/swap-router-contracts@^1.2.1":
   version "1.2.1"
